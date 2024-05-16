@@ -9,9 +9,9 @@
     <link rel="shortcut icon" href="./icons/cinema-svgrepo-com.svg" type="image/x-icon">
     <title>CineSenai</title>
 </head>
-<body>
+<body class="bg-secondary">
         <!-- NAVBAR -->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg bg-dark">
             <div class="container-fluid">
               <a class="navbar-brand" href="index.html">
                   <img src="./icons/cinema-svgrepo-com.svg" alt="cine logo" width="40" height="50">
@@ -22,13 +22,13 @@
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Em cartaz</a>
+                    <a class="nav-link text-white" href="#">Em cartaz</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Ingressos</a>
+                    <a class="nav-link text-white" href="#">Horários de exibição</a>
                   </li>
                 </ul>
               </div>
@@ -41,13 +41,13 @@
              <div id="carouselExampleAutoplaying" class="carousel slide"  data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="images/Frame 1 (4).png" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
                     <img src="images/Frame 1 (3).png" class="d-block w-100" alt="...">
                   </div>
                   <div class="carousel-item">
-                    <img src="images/Frame 1 (5).png" class="d-block w-100" alt="...">
+                    <img src="images/Frame 1 (1).png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/Frame 1 (2).png" class="d-block w-100" alt="...">
                   </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -61,6 +61,81 @@
               </div>
          </main>
 
+
+         <section id="apresentacao" class="text-white text-center">
+          <h2 class="my-3">EM BUSCA DOS MELHORES FILMES? CINESENAI É A MELHOR ESCOLHA!</h2>
+        </section>
+
+         <!-- CATÁLOGO DE FILMES -->
+
+         <section id="catalogo" class="text-info d-flex justify-content-center gap-5" >
+
+           <!-- filme 1 -->
+         <div id="card-1" class="card border border-black p-2 text-bg-dark mb-3" style="width: 18rem;">
+          <img src="images/akira.jpg" class="card-img-top" alt="akira">
+           <div class="card-body text-center">
+             <h4 class="text-white">Akira</h4>
+             <p class="card-text lh-sm">Megametrópole de Tóquio. Kaneda, líder de um gangue de jovens delinquentes, conduz a sua moto, competindo contra gangues rivais, por uma cidade devastada.</p>
+               <button type="button" class="btn btn-info color-button" data-bs-toggle="modal" data-bs-target="#akira">Ver mais</button>
+           </div>
+       </div>
+
+                  <!-- filme 2 -->
+                  <div id="card-1" class="text-bg-dark mb-3 card border border-black p-2" style="width: 18rem;">
+                    <img src="images/american psycho.jpg" class="card-img-top" alt="american psycho">
+                     <div class="card-body text-center ">
+                       <h4 class="text-white">American Psycho</h4>
+                       <p class="card-text lh-sm">Patrick Bateman (Christian Bale) jovem, branco, bonito e sem nada que o diferencie de seus colegas de Wall Street. Protegido pela conformidade, privilégio e riqueza, Bateman também um serial killer, que vaga livremente e sem receios em busca de uma nova vítima.</p>
+                         <button type="button" class="btn btn-info color-button" data-bs-toggle="modal" data-bs-target="#american">Ver mais</button>
+                     </div>
+                 </div>
+
+                            <!-- filme 3 -->
+         <div id="card-1" class="text-bg-dark mb-3 card border border-black p-2" style="width: 18rem;">
+          <img src="images/baby driver.jpg" class="card-img-top" alt="Baby Driver">
+           <div class="card-body text-center ">
+             <h4 class="text-white">Baby Driver</h4>
+             <p class="card-text lh-sm">Baby é um rapaz misterioso que precisa ouvir músicas o tempo todo para silenciar o zumbido que perturba seus ouvidos. Motorista de uma gangue de criminosos, ele sonha em fazer seu último trabalho e fugir com a garota dos seus sonhos. Mas nem tudo será tão simples quanto ele gostaria.
+
+             </p>
+               <button type="button" class="btn btn-info color-button" data-bs-toggle="modal" data-bs-target="#baby">Ver mais</button>
+           </div>
+       </div>
+      </section>
+
+       <section id="catalogo2" class="text-info d-flex justify-content-center gap-5">
+
+                  <!-- filme 4 -->
+                  <div id="card-1" class="text-bg-dark mb-3 card border border-black p-2" style="width: 18rem;">
+                    <img src="images/black swan.jpg" class="card-img-top" alt="Black Swan">
+                     <div class="card-body text-center ">
+                       <h4 class="text-white">Black Swan</h4>
+                       <p class="card-text lh-sm">Nina (Portman) é uma bailarina de uma companhia de balé de Nova York, cuja vida, como todos aqueles em sua profissão, é completamente consumida com a dança. Ela vive com sua mãe obsessiva a ex-bailarina Erica (Hershey), que exerce um controle sufocante sobre ela.</p>
+                         <button type="button" class="btn btn-info color-button" data-bs-toggle="modal" data-bs-target="#blackswan">Ver mais</button>
+                     </div>
+                 </div>
+
+                            <!-- filme 5 -->
+         <div id="card-1" class="text-bg-dark mb-3 card border border-black p-2" style="width: 18rem;">
+          <img src="images/fight club.jpg" class="card-img-top" alt="Fight Club">
+           <div class="card-body text-center ">
+             <h4 class="text-white">Fight Club</h4>
+             <p class="card-text lh-sm">Um homem deprimido que sofre de insônia conhece um estranho vendedor de sabonetes chamado Tyler Durden. Eles formam um clube clandestino com regras rígidas onde lutam com outros homens cansados de suas vidas mundanas.</p>
+               <button type="button" class="btn btn-info color-button" data-bs-toggle="modal" data-bs-target="#fightclub">Ver mais</button>
+           </div>
+       </div>
+
+                  <!-- filme 6 -->
+                  <div id="card-1" class="text-bg-dark mb-3 card border border-black p-2" style="width: 18rem;">
+                    <img src="images/joker.jpg" class="card-img-top" alt="Joker">
+                     <div class="card-body text-center ">
+                       <h4 class="text-white">Joker</h4>
+                       <p class="card-text lh-sm">Em Coringa, Arthur Fleck (Joaquin Phoenix) trabalha como palhaço para uma agência de talentos e, toda semana, precisa comparecer a uma agente social, devido aos seus conhecidos problemas mentais. Após ser demitido, Fleck reage mal à gozação de três homens em pleno metrô e os mata.</p>
+                         <button type="button" class="btn btn-info color-button" data-bs-toggle="modal" data-bs-target="#joker">Ver mais</button>
+                     </div>
+                 </div>
+                </section>       
+
     <script src="./scripts/index.js"></script>
     <script src="./scripts/jquery-3.7.1.min.js"></script>     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
@@ -68,3 +143,157 @@
 </body>
 </html>
 
+
+<!-- MODAIS -->
+
+      <!-- filme 1 -->
+      <div class="modal fade" id="#akira" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Akira</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <!-- imagem -->
+              <img class="w-100" src="images/akira.jpg" alt="imagem akira">
+              <!-- valor -->
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur labore facere expedita aut, eum quas recusandae reprehenderit officia sunt ratione beatae nam non, maiores commodi quae magni officiis, quam laboriosam?</p>  
+              <h4 class="text-success">...</h4>
+            </div>
+            <!-- botão modal -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
+              <button type="button" class="btn btn-success">...</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- FIM FILME 1  -->
+
+            <!-- filme 2 -->
+            <div class="modal fade" id="#american" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">American Psycho</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <!-- imagem -->
+                    <img class="w-100" src="images/american psycho.jpg" alt="imagem do produto">
+                    <!-- valor -->
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur labore facere expedita aut, eum quas recusandae reprehenderit officia sunt ratione beatae nam non, maiores commodi quae magni officiis, quam laboriosam?</p>  
+                    <h4 class="text-success">...</h4>
+                  </div>
+                  <!-- botão modal -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
+                    <button type="button" class="btn btn-success">...</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- FIM FILME 2  -->
+
+                  <!-- filme 3 -->
+      <div class="modal fade" id="..." tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Coleira</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <!-- imagem -->
+              <img class="w-100" src="..." alt="imagem do produto">
+              <!-- valor -->
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur labore facere expedita aut, eum quas recusandae reprehenderit officia sunt ratione beatae nam non, maiores commodi quae magni officiis, quam laboriosam?</p>  
+              <h4 class="text-success">...</h4>
+            </div>
+            <!-- botão modal -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
+              <button type="button" class="btn btn-success">...</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- FIM FILME 3  -->
+
+
+            <!-- filme 4 -->
+            <div class="modal fade" id="..." tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Coleira</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <!-- imagem -->
+                    <img class="w-100" src="..." alt="imagem do produto">
+                    <!-- valor -->
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur labore facere expedita aut, eum quas recusandae reprehenderit officia sunt ratione beatae nam non, maiores commodi quae magni officiis, quam laboriosam?</p>  
+                    <h4 class="text-success">...</h4>
+                  </div>
+                  <!-- botão modal -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
+                    <button type="button" class="btn btn-success">...</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- FIM FILME 4  -->
+
+                  <!-- filme 5 -->
+      <div class="modal fade" id="..." tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Coleira</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <!-- imagem -->
+              <img class="w-100" src="..." alt="imagem do produto">
+              <!-- valor -->
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur labore facere expedita aut, eum quas recusandae reprehenderit officia sunt ratione beatae nam non, maiores commodi quae magni officiis, quam laboriosam?</p>  
+              <h4 class="text-success">...</h4>
+            </div>
+            <!-- botão modal -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
+              <button type="button" class="btn btn-success">...</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- FIM FILME 5  -->
+
+
+            <!-- filme 6 -->
+            <div class="modal fade" id="..." tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Coleira</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <!-- imagem -->
+                    <img class="w-100" src="..." alt="imagem do produto">
+                    <!-- valor -->
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur labore facere expedita aut, eum quas recusandae reprehenderit officia sunt ratione beatae nam non, maiores commodi quae magni officiis, quam laboriosam?</p>  
+                    <h4 class="text-success">...</h4>
+                  </div>
+                  <!-- botão modal -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
+                    <button type="button" class="btn btn-success">...</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- FIM FILME 6  -->
