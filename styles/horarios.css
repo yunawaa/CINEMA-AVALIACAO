@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #c9c9c9;
+}
+
+tr:nth-child(even) {
+    background-color: #8eb1c5;
+}
+
+tr:hover {
+    background-color: #87b3c5;
+}
